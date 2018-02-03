@@ -1,0 +1,57 @@
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Uncharted 4: Путь вора', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('The Last of Us', '2013');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('FIFA 17', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Mafia III', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Star Wars: Battlefront', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Need for Speed', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('The Last Guardian', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Minecraft', '2009');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Watch Dogs', '2014');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Watch Dogs 2', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Mirrors Edge Catalyst', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Uncharted: Натан Дрейк', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Risen 3: Titan Lords', '2014');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Ведьмак 3: Дикая Охота', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Far Cry 4', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('NHL 17', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Дожить до рассвета', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Call of Duty: Black Ops III', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Tom Clancys The Division', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Mortal Kombat XL', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Сибирь 3', '2016');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Just Dance 2016', '2015');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('The Evil Within', '2014');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('Spore', '2008');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('BioShock', '2007');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('BioShock 2', '2010');
+INSERT INTO `laboratory_work`.`dvd` (`title`, `production_year`) VALUES ('BioShock Infinite', '2013');
+
+
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Билл', 'Гейтс', '2888');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Нельсон', 'Мандела', '5393');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Опра', 'Уинфри', '6917');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Давид', 'Бен-Гурион', '5681');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Хо Ши ', 'Мин', '3799');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Уинстон', 'Черчилль', '7199');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Махатма', 'Ганди', '8563');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Михаил', 'Горбачёв', '2176');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Адольф', 'Гитлер', '9547');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Аятолла Рухолла', 'Мусави Хомейни', '4568');
+INSERT INTO `laboratory_work`.`customer` (`first_name`, `second_name`, `passport_code`) VALUES ('Мартин Лютер', 'Кинг', '2060');
+
+
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('1', '5', '2011-09-15');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('3', '1', '2016-04-22', '2017-01-01');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('6', '8', '2016-11-08', '2017-09-29');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('5', '10', '2012-06-16');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('4', '3', '2012-05-14', '2017-09-04');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('7', '4', '2012-08-26');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('8', '2', '2015-12-12', '2017-03-19');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('10', '8', '2014-04-15');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('16', '5', '2011-09-03', '2015-10-05');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('18', '6', '2014-10-06');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('9', '3', '2016-11-12');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('15', '3', '2015-06-09', '2015-02-02');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('27', '2', '2017-01-04');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`) VALUES ('22', '1', '2015-01-09');
+INSERT INTO `laboratory_work`.`offer` (`dvd_id`, `customer_id`, `offer_date`, `return_date`) VALUES ('25', '9', '2012-08-02', '2016-06-09');
